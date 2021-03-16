@@ -10,7 +10,7 @@ import com.example.hr.events.EmployeeHiredEvent;
 import com.example.hr.infrastructure.EventPublisher;
 import com.example.hr.repository.EmployeeRepository;
 
-public class StandartHrApplication implements HrApplication {
+public class StandardHrApplication implements HrApplication {
 
 	private EmployeeRepository employeeRepository;
 	private EventPublisher eventPublisher;
@@ -19,7 +19,7 @@ public class StandartHrApplication implements HrApplication {
 	 * loose coupling interface oldugundan, dependency inj ile init constructor inj.
 	 * yapacaðýz.
 	 */
-	public StandartHrApplication(EmployeeRepository employeeRepository, EventPublisher eventPublisher) {
+	public StandardHrApplication(EmployeeRepository employeeRepository, EventPublisher eventPublisher) {
 		this.employeeRepository = employeeRepository;
 		this.eventPublisher = eventPublisher;
 	}
