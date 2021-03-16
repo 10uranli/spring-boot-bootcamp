@@ -1,5 +1,6 @@
 package com.example.hr.domain;
 
-public class Department {
+public enum Department {
 
+	IT,HR,SALES,FINANCE
 }

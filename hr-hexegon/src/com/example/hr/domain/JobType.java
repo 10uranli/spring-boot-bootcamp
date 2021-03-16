@@ -1,5 +1,6 @@
 package com.example.hr.domain;
 
-public class JobType {
+public enum JobType {
 
+	FULLTIME,PARTTIME
 }
